@@ -18,7 +18,7 @@ const firebaseConfig = {
     storageBucket: "learnwithfirebase-8ad9e.appspot.com",
     messagingSenderId: "872444868146",
     appId: "1:872444868146:web:7886ca1380f6c2ba27ae2b"
-  };
+};
 
 // initialze firebase in our project by passing in our environment variables to the `initializeApp` method
 const app = initializeApp(firebaseConfig);
